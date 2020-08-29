@@ -67,3 +67,7 @@ then
 else
 	echo "match is tie"
 fi
+
+#UseCase 4=> Show Difference of minimum 2 points
+diff=$(( $hcount - $tcount ))
+echo "Differnce of two point = $diff"
